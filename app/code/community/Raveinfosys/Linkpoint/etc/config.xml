@@ -41,6 +41,17 @@
                 <class>Raveinfosys_Linkpoint_Model</class>
             </linkpoint>
 		</models>
+		<resources>
+            <linkpoint_setup>
+                <setup>
+                    <module>Raveinfosys_Linkpoint</module>
+					<class>Mage_Customer_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </linkpoint_setup>
+        </resources>
 	</global>
 	<default>
         <payment>
