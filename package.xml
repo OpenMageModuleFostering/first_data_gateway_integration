@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>First_Data_Gateway_Integration</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
@@ -10,12 +10,12 @@
     <description>To facilitate the payment options, this extension provides seamless integration with First Data Global Gateway. This extension allows you to make secure payments using FirstData Global Gateway for all your online shopping needs. It supports all credit cards such as Visa, MasterCard, AE, JCB etc.&amp;#xD;&#xD;
 &amp;#xD;&#xD;
 The customer is not required to leave the Magento store for making the payment. FDGG does support multiple currencies however you need to check FDGG website for latest updates.</description>
-    <notes>This version is properly tested on the following Magento CE versions: 1.5, 1.6, 1.6.1, 1.6.2.0.&amp;#xD;&#xD;
-This version also supports for PHP V5.4.5</notes>
+    <notes>This version is properly tested on the following Magento CE versions: 1.5, 1.6, 1.7,1.8,1.9.0.1.&amp;#xD;&#xD;
+This version also supports for PHP V5.5.15</notes>
     <authors><author><name>Rave Infosys</name><user>raveinfo</user><email>lpext@raveinfosys.com</email></author></authors>
-    <date>2014-04-15</date>
-    <time>09:46:54</time>
+    <date>2014-08-04</date>
+    <time>05:47:28</time>
     <contents><target name="magecommunity"><dir name="Raveinfosys"><dir name="Linkpoint"><dir name="Model"><file name="Linkpoint.php" hash="f8d8f6d8b90fbdee945068da741db51c"/><file name="Observer.php" hash="693ae2128bea852549c719b53aa5d3f8"/></dir><dir name="etc"><file name="config.xml" hash="8809b7589fdab005fbae48aca7d2e9d4"/><file name="system.xml" hash="d1727b5f1a15e19adc00d8c3581b3ec8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Raveinfosys_Linkpoint.xml" hash="87645041b22e2b0adf581b54991c6ee1"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.0</min><max>5.4.27</max></php><extension><name>curl</name><min>7.21.4</min><max>7.36.0</max></extension></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.15</max></php><extension><name>curl</name><min>7.21.4</min><max>7.36.0</max></extension></required></dependencies>
 </package>
