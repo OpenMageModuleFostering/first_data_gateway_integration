@@ -21,7 +21,7 @@
 		<payment>
 			<groups>
 				<linkpoint translate="label">
-					<label>LinkPoint</label>
+					<label>First Data Global Gateway</label>
 					<frontend_type>text</frontend_type>
 					<show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>

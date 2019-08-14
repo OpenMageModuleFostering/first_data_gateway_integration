@@ -1,4 +1,5 @@
 <?php
+
 /**
  * NOTICE OF LICENSE
  *
@@ -16,18 +17,17 @@
  */
 class Raveinfosys_Linkpoint_Model_Observer
 {
-	
-	public function disableMethod(Varien_Event_Observer $observer)
-	{
-		$moduleName = "Raveinfosys_Linkpoint";
-		if('linkpoint' == $observer->getMethodInstance()->getCode())
-		{
-			if(Mage::getStoreConfigFlag('advanced/modules_disable_output/'.$moduleName))
-			{
-				$observer->getResult()->isAvailable = false;
-			}
-			
-		}
-	}
+
+    public function disableMethod(Varien_Event_Observer $observer)
+    {
+        $moduleName = "Raveinfosys_Linkpoint";
+        if ('linkpoint' == $observer->getMethodInstance()->getCode()) {
+            if (Mage::getStoreConfigFlag('advanced/modules_disable_output/' . $moduleName)) {
+                $observer->getResult()->isAvailable = false;
+            }
+        }
+    }
+
 }
+
 ?>

@@ -57,7 +57,7 @@
         <payment>
             <linkpoint>
                 <active>0</active>
-                <title>Credit Card (LinkPoint)</title>
+                <title>Credit Card (First Data)</title>
 				<order_status>pending</order_status>
 				<cctypes>AE,VI,MC</cctypes>
 				<useccv>1</useccv>
