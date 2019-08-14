@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/First_Data_Gateway_Integration",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "This extension allows you to make payments using FirstData Global Gateway for all your online shopping needs. ",
+    "authors": [
+    {
+        "name": "Rave Infosys",
+        "email": "lpext@raveinfosys.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
