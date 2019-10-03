@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/First_Data_Gateway_Integration",
+    "name": "openmage-module-fostering\/first_data_gateway_integration",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
